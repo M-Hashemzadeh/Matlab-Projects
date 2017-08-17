@@ -1,4 +1,3 @@
-clc;clear all
 M=zeros(4);
 M1=prod(M);M2=prod(M1);
 while M2==0
@@ -16,7 +15,7 @@ while M2==0
     M1=prod(M);M2=prod(M1);
     clc
     M
-    sentido=input('¿Hacia dónde mueves? ','s');
+    sentido=input('ï¿½Hacia dï¿½nde mueves? ','s');
     switch sentido
         case 'd'
             for i=1:4
